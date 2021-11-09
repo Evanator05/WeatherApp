@@ -1,8 +1,7 @@
-
+String apiKey = "9bc3c4ca49deab05dfcc43bc728fb627";
 
 void setup() {
-  //geometry
-  //population
+  print(getForecastURL(apiKey, "edmonton"));
 };
 
 void draw() {
